@@ -203,6 +203,7 @@ GameObject:
   - component: {fileID: 736223346}
   - component: {fileID: 736223345}
   - component: {fileID: 736223344}
+  - component: {fileID: 736223348}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -294,6 +295,18 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &736223348
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 736223343}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9469e77beb41a1b46b750f39962a76d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1346199607
 GameObject:
   m_ObjectHideFlags: 0
@@ -736,7 +749,6 @@ GameObject:
   - component: {fileID: 1954218187}
   - component: {fileID: 1954218186}
   - component: {fileID: 1954218185}
-  - component: {fileID: 1954218188}
   m_Layer: 5
   m_Name: Button
   m_TagString: Untagged
@@ -809,13 +821,13 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 736223343}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 736223348}
+        m_TargetAssemblyTypeName: PlayButton, Assembly-CSharp
+        m_MethodName: StartGame
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -859,15 +871,3 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1954218183}
   m_CullTransparentMesh: 1
---- !u!114 &1954218188
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1954218183}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9469e77beb41a1b46b750f39962a76d2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
