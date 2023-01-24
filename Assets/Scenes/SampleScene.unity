@@ -178,6 +178,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ennemi (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 7545235979956829202, guid: 12391f690ca34a3419bd6af8b818a774, type: 3}
+      propertyPath: maxPuissance
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 7545235979956829202, guid: 12391f690ca34a3419bd6af8b818a774, type: 3}
+      propertyPath: minPuissance
+      value: 5
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 12391f690ca34a3419bd6af8b818a774, type: 3}
 --- !u!1 &519420028
@@ -470,6 +478,14 @@ PrefabInstance:
     - target: {fileID: 7545235979956829202, guid: 12391f690ca34a3419bd6af8b818a774, type: 3}
       propertyPath: Puissance
       value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 7545235979956829202, guid: 12391f690ca34a3419bd6af8b818a774, type: 3}
+      propertyPath: maxPuissance
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 7545235979956829202, guid: 12391f690ca34a3419bd6af8b818a774, type: 3}
+      propertyPath: minPuissance
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 12391f690ca34a3419bd6af8b818a774, type: 3}
