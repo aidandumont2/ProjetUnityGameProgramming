@@ -282,61 +282,85 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 204712418083453530, guid: 12391f690ca34a3419bd6af8b818a774, type: 3}
+      propertyPath: m_fontSize
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 204712418083453530, guid: 12391f690ca34a3419bd6af8b818a774, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 235839090325101986, guid: 12391f690ca34a3419bd6af8b818a774, type: 3}
       propertyPath: m_RenderMode
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 2453920004587938038, guid: 12391f690ca34a3419bd6af8b818a774, type: 3}
       propertyPath: m_PresetInfoIsWorld
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4379069145246265302, guid: 12391f690ca34a3419bd6af8b818a774, type: 3}
       propertyPath: m_Pivot.x
-      value: 0
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 4379069145246265302, guid: 12391f690ca34a3419bd6af8b818a774, type: 3}
       propertyPath: m_Pivot.y
-      value: 0
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 4379069145246265302, guid: 12391f690ca34a3419bd6af8b818a774, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 0
+      value: 3.2309
       objectReference: {fileID: 0}
     - target: {fileID: 4379069145246265302, guid: 12391f690ca34a3419bd6af8b818a774, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 0
+      value: 1.3313
       objectReference: {fileID: 0}
     - target: {fileID: 4379069145246265302, guid: 12391f690ca34a3419bd6af8b818a774, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4379069145246265302, guid: 12391f690ca34a3419bd6af8b818a774, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0
+      value: 1.0236462
       objectReference: {fileID: 0}
     - target: {fileID: 4379069145246265302, guid: 12391f690ca34a3419bd6af8b818a774, type: 3}
       propertyPath: m_LocalScale.z
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4379069145246265302, guid: 12391f690ca34a3419bd6af8b818a774, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 4379069145246265302, guid: 12391f690ca34a3419bd6af8b818a774, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 4379069145246265302, guid: 12391f690ca34a3419bd6af8b818a774, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 4379069145246265302, guid: 12391f690ca34a3419bd6af8b818a774, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 4379069145246265302, guid: 12391f690ca34a3419bd6af8b818a774, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: 1.75
+      objectReference: {fileID: 0}
+    - target: {fileID: 5391800326364618258, guid: 12391f690ca34a3419bd6af8b818a774, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 3.2309
+      objectReference: {fileID: 0}
+    - target: {fileID: 5391800326364618258, guid: 12391f690ca34a3419bd6af8b818a774, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 1.3313
+      objectReference: {fileID: 0}
+    - target: {fileID: 5391800326364618258, guid: 12391f690ca34a3419bd6af8b818a774, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -0.000014901
+      objectReference: {fileID: 0}
+    - target: {fileID: 5391800326364618258, guid: 12391f690ca34a3419bd6af8b818a774, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0.000009954
       objectReference: {fileID: 0}
     - target: {fileID: 6807261037832204452, guid: 12391f690ca34a3419bd6af8b818a774, type: 3}
       propertyPath: m_RootOrder
