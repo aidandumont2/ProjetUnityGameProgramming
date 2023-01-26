@@ -5,5 +5,20 @@ using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
-    private int currentEnnemisCount;
+    public int nbEnnemi;
+    internal void DecrementEnnemiCount()
+    {
+        nbEnnemi--;
+
+        if (nbEnnemi <= 0)
+        {
+            Debug.Log("fini");
+            NextLevel();
+        }
+    }
+    private static void NextLevel()
+    {
+        Scene currentScene = SceneManager.GetActiveScene();
+        SceneManager.LoadScene(currentScene.buildIndex + 1);
+    }
 }
