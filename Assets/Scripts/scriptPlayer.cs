@@ -7,9 +7,12 @@ public class scriptPlayer : MonoBehaviour
 {
     public float speed = 2f;
     public int Puissance;
+    public int CurrentPuissance;
     public TextMeshProUGUI puissanceText;
     private void Update()
     {
+        puissanceText.text = $"LV {CurrentPuissance}";
+
         if (Input.GetButtonDown("Horizontal")) {
             float x = Input.GetAxisRaw("Horizontal");
             transform.position += new Vector3(x * speed, 0, 0);
@@ -19,11 +22,13 @@ public class scriptPlayer : MonoBehaviour
             float y = Input.GetAxisRaw("Vertical");
             transform.position += new Vector3(0, y * speed, 0);
         }
+
     }
     
 
-    private void Start()
+    private void Awake()
     {
+        CurrentPuissance = Puissance;
         puissanceText.text = $"LV {Puissance}";
     }
 
