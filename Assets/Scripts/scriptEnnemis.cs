@@ -29,7 +29,7 @@ public class scriptEnnemis : MonoBehaviour
             int JoueurPuissance = Joueur.gameObject.GetComponent<scriptPlayer>().CurrentPuissance;
             if (Puissance <= JoueurPuissance)
             {
-                Joueur.gameObject.GetComponent<scriptPlayer>().CurrentPuissance += Puissance;
+                Joueur.gameObject.GetComponent<scriptPlayer>().AddPuissance(Puissance);
                 Debug.Log(Joueur.gameObject.GetComponent<scriptPlayer>().CurrentPuissance);
                 Destroy(gameObject);
             }

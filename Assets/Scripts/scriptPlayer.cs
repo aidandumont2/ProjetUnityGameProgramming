@@ -6,9 +6,11 @@ using UnityEngine;
 public class scriptPlayer : MonoBehaviour
 {
     public float speed = 2f;
+
     public int Puissance;
     public int CurrentPuissance;
     public TextMeshProUGUI puissanceText;
+
     private void Update()
     {
         puissanceText.text = $"LV {CurrentPuissance}";
@@ -32,4 +34,8 @@ public class scriptPlayer : MonoBehaviour
         puissanceText.text = $"LV {Puissance}";
     }
 
+    public void AddPuissance(int PuissanceAjoute)
+    {
+        CurrentPuissance += PuissanceAjoute;
+    }
 }
