@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ProceduralCaseSpawner : MonoBehaviour
+public class ProceduralCaseSpawnerNV2 : MonoBehaviour
 {
     public GameObject[] Cases;
     public GameObject Spawned;
@@ -11,9 +11,9 @@ public class ProceduralCaseSpawner : MonoBehaviour
     // Start is called before the first frame update
     void Awake()
     {
-        for (int x=-2; x<=2; x++)
+        for (int x=-4; x<=4; x++)
         {
-            for (int y=-2; y<=2; y++) {
+            for (int y=-4; y<=4; y++) {
                 var randomCase = Cases[Random.Range(0, Cases.Length)];
                 if(x == 0 && y == 0)
                 {
