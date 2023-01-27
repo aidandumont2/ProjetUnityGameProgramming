@@ -12,7 +12,6 @@ public class scriptEnnemis : MonoBehaviour
     public int minPuissance;
     public int maxPuissance;
     private int Puissance;
-    public int nbennemi = 2;
 
     public TextMeshProUGUI puissanceEnnemis;
 
@@ -27,14 +26,12 @@ public class scriptEnnemis : MonoBehaviour
     {
         if (collision.gameObject.tag == Joueur.tag)
         {
-            int JoueurPuissance = Joueur.gameObject.GetComponent<scriptPlayer>().Puissance;
+            int JoueurPuissance = Joueur.gameObject.GetComponent<scriptPlayer>().CurrentPuissance;
             if (Puissance <= JoueurPuissance)
             {
-                Joueur.gameObject.GetComponent<scriptPlayer>().Puissance += Puissance;
-                Debug.Log(Joueur.gameObject.GetComponent<scriptPlayer>().Puissance);
+                Joueur.gameObject.GetComponent<scriptPlayer>().AddPuissance(Puissance);
+                Debug.Log(Joueur.gameObject.GetComponent<scriptPlayer>().CurrentPuissance);
                 Destroy(gameObject);
-                GameManager gameManager = FindObjectOfType<GameManager>();
-                gameManager.DecrementEnnemiCount();
             }
             else
             {

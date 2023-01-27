@@ -235,7 +235,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 2
-  Puissance: 4
+  Puissance: 3
+  CurrentPuissance: 0
   puissanceText: {fileID: 51696825525994132}
 --- !u!70 &-4157301130794385803
 CapsuleCollider2D:
