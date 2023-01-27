@@ -11,6 +11,18 @@ PrefabInstance:
       propertyPath: m_LocalPosition.y
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 2677115442523523295, guid: bb6199f508787d1419acdd50557168e2, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 2.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3460654389464632998, guid: bb6199f508787d1419acdd50557168e2, type: 3}
+      propertyPath: m_FlipX
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5684940590864683322, guid: bb6199f508787d1419acdd50557168e2, type: 3}
+      propertyPath: m_Name
+      value: MirroredEnnemyPosition
+      objectReference: {fileID: 0}
     - target: {fileID: 6025226551752222600, guid: bb6199f508787d1419acdd50557168e2, type: 3}
       propertyPath: m_Name
       value: Case (Mirrored)
@@ -65,7 +77,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7436192274758324800, guid: bb6199f508787d1419acdd50557168e2, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.5
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7436192274758324800, guid: bb6199f508787d1419acdd50557168e2, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7436192275244306361, guid: bb6199f508787d1419acdd50557168e2, type: 3}
       propertyPath: m_Offset.x
@@ -74,6 +90,14 @@ PrefabInstance:
     - target: {fileID: 7436192275244306367, guid: bb6199f508787d1419acdd50557168e2, type: 3}
       propertyPath: m_LocalPosition.x
       value: 2.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7436192276105039805, guid: bb6199f508787d1419acdd50557168e2, type: 3}
+      propertyPath: m_Name
+      value: MirroredPlayerPosition
+      objectReference: {fileID: 0}
+    - target: {fileID: 7436192276105039806, guid: bb6199f508787d1419acdd50557168e2, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 7.5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bb6199f508787d1419acdd50557168e2, type: 3}
