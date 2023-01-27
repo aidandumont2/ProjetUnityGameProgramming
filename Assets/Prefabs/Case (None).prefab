@@ -117,7 +117,7 @@ Transform:
   - {fileID: 6174400503556301061}
   - {fileID: 3838104811513201884}
   m_Father: {fileID: 174376829335238532}
-  m_RootOrder: 2
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2936584840055157775
 GameObject:
@@ -498,7 +498,7 @@ GameObject:
   - component: {fileID: 533301653033436288}
   - component: {fileID: 1553345596631200653}
   m_Layer: 0
-  m_Name: Case (Empty)
+  m_Name: Case (None)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -516,8 +516,6 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 4717824121567743501}
-  - {fileID: 4717824120213427187}
   - {fileID: 213168458119006281}
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -560,6 +558,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d67bd218c8561ac489883ab42f3284e8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerPosition: {fileID: 4717824121567743502}
+  playerPosition: {fileID: 0}
   player: {fileID: 8848583842584345704, guid: a19505466bd9b124c8156ee41aa46045, type: 3}
   speed: 10
