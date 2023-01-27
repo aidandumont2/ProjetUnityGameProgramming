@@ -11,6 +11,11 @@ public class scriptPlayer : MonoBehaviour
     public int CurrentPuissance;
     public TextMeshProUGUI puissanceText;
 
+    private void Start()
+    {
+        transform.position = new Vector3(2.5f, 0.1f, 0);
+    }
+
     private void Update()
     {
         puissanceText.text = $"LV {CurrentPuissance}";

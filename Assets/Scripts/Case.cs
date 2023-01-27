@@ -6,18 +6,18 @@ using UnityEngine;
 public class Case : MonoBehaviour
 {
     public GameObject playerPosition;
-    public PlayerController playerController;
+    public scriptPlayer player;
     public float speed = 10f;
     Vector2 lastClickedPos;
     bool moving;
 
     private void Start()
     {
-        playerController = FindObjectOfType<PlayerController>();
+        player = FindObjectOfType<scriptPlayer>();
     }
     private void OnMouseDown()
     {
-        playerController.transform.position = playerPosition.transform.position;
+        player.transform.position = playerPosition.transform.position;
         /*if (Input.GetMouseButtonDown(0))
         {
             lastClickedPos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
