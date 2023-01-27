@@ -11,6 +11,14 @@ PrefabInstance:
       propertyPath: m_LocalPosition.y
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 2677115442523523295, guid: bb6199f508787d1419acdd50557168e2, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 2.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3460654389464632998, guid: bb6199f508787d1419acdd50557168e2, type: 3}
+      propertyPath: m_FlipX
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5684940590864683322, guid: bb6199f508787d1419acdd50557168e2, type: 3}
       propertyPath: m_Name
       value: MirroredEnnemyPosition
@@ -69,6 +77,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7436192274758324800, guid: bb6199f508787d1419acdd50557168e2, type: 3}
       propertyPath: m_LocalPosition.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7436192274758324800, guid: bb6199f508787d1419acdd50557168e2, type: 3}
+      propertyPath: m_LocalPosition.z
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7436192275244306361, guid: bb6199f508787d1419acdd50557168e2, type: 3}

@@ -10,10 +10,12 @@ public class scriptPlayer : MonoBehaviour
     public int Puissance;
     public int CurrentPuissance;
     public TextMeshProUGUI puissanceText;
+    public GameManager indexLevel;
+
 
     private void Start()
     {
-        transform.position = new Vector3(2.5f, 0.1f, 0);
+        /*transform.position = new Vector3(2.5f, 0.1f, 0);*/
     }
 
     private void Update()
