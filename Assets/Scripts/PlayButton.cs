@@ -9,7 +9,7 @@ public class PlayButton : MonoBehaviour
     {
         Debug.Log("User clicked on Play button");
 
-        SceneManager.LoadScene("SampleScene");
+        SceneManager.LoadScene("Level1");
         //SceneManager.LoadScene(1);
     }
 
