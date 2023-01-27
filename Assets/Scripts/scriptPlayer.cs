@@ -22,16 +22,6 @@ public class scriptPlayer : MonoBehaviour
     {
         puissanceText.text = $"LV {CurrentPuissance}";
 
-        if (Input.GetButtonDown("Horizontal")) {
-            float x = Input.GetAxisRaw("Horizontal");
-            transform.position += new Vector3(x * speed, 0, 0);
-        }
-        if (Input.GetButtonDown("Vertical"))
-        {
-            float y = Input.GetAxisRaw("Vertical");
-            transform.position += new Vector3(0, y * speed, 0);
-        }
-
     }
     
 

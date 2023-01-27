@@ -17,6 +17,7 @@ public class GameManager : MonoBehaviour
     }
     private void Start()
     {
+        nbEnnemi = FindObjectsOfType<scriptEnnemis>().Length;
         _level.affichagelevel(SceneManager.GetActiveScene().buildIndex);
     }
 

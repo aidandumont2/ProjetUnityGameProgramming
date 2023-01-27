@@ -337,10 +337,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Joueur: {fileID: 51696826129441400, guid: beb64bbbe27c7334c9e78c87dbe896e0, type: 3}
-  minPuissance: 0
-  maxPuissance: 0
-  nbennemi: 2
   puissanceEnnemis: {fileID: 204712418083453530}
+  player: {fileID: 0}
 --- !u!70 &-5289523675028512378
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -370,7 +368,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.857399, y: 0.89}
+  m_Offset: {x: 0.00002515316, y: 0.72511053}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0}
@@ -381,5 +379,5 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 8.833624, y: 2.69}
+  m_Size: {x: 6.788986, y: 1.898529}
   m_EdgeRadius: 0
